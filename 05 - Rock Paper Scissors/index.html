@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Rock Paper Scissor Tournament</h1>
+    </header>
+    <div class="score">
+      <h2>SCORE</h2>
+      <h3><span id="player-score">0</span>:<span id="cpu-score">0</span></h3>
+    </div>
+    <main>
+      <div class="container">
+        <h2>Player One</h2>
+        <h3 id="player-choice">---</h3>
+        <div class="btn-container">
+          <button class="btn rock">Rock</button>
+          <button class="btn paper">Paper</button>
+          <button class="btn scissor">Scissor</button>
+        </div>
+      </div>
+      <div class="container active">
+        <h2 id="game-info">LET'S GO!!</h2>
+      </div>
+      <div class="container">
+        <h2>CPU</h2>
+        <h3 id="cpu-choice">---</h3>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
